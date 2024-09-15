@@ -32,6 +32,7 @@ body {
   border-bottom: 1px solid var(--border-grey);
 }
 
+.menu__main__item--active,
 .menu__main__item:hover {
   background: white;
   border-bottom: none;
@@ -62,6 +63,7 @@ body {
 .menu__sub {
   height: 18rem;
   background: white;
+  display: none;
 }
 
 .menu__sub__categories {
@@ -80,7 +82,6 @@ body {
 }
 
 .menu__sub__visual__img {
-  /* padding: 0 0 0 10rem; */
   width: 100%;
   height: 100%;
 }
